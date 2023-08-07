@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>My Spotify Profile</title>
+  <script src="src/script.js" type="module"></script>
+  <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+  <h1>Spotif-ai<br><span id="fruits">Built by Lauren Hyde</span></h1>
+  <section id="profile"><br>
+    <div id="avdiv">
+      <span id="avatar"></span>
+      <h2> Welcome, <span id="displayName"></span>!</h2>
+    </div><br>
+    <script type="text/javascript" src="script.js"></script>
+  </section>
+  <div id="bigcontainer">
+    <div id="smallcontainer"><span id="fruity1">playlist stats:</span><br><span id="playlists"></span></div>
+    <div><strong>your favorite songs are......</strong><br><br>
+      <div id="medcontainer">
+        <div id="favsong"></div>
+        <span id="divider"></span>
+        <div id="favsong2"></div>
+        <span id="divider"></span>
+        <div id="favsong3"></div>
+      </div>
+    </div>
+  </div>
+  <br>
+  pick a time range to view top artists/songs:<br>
+  <select name="task" id="task">
+    <option value="1">Short range (4wk)</option>
+    <option value="2">Mid range (6mo)</option>
+    <option value="3">Long range (forever)</option>
+  </select>
+  <br>
+  <section id="fruitify">
+    <div id=fruitarts><span id="items"></span><span id="divider"></span><span id="songs"></span><span
+        id="divider"></span><span id="recents"></span>
+    </div>
+  </section>
+</body>
+
+</html>

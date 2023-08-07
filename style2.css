@@ -1,0 +1,145 @@
+@font-face {
+    font-family: lobster;
+    src: url(fonts/lobster.ttf);
+}
+
+@font-face {
+    font-family: gotham;
+    src: url(fonts/GothamMedium.ttf);
+}
+
+@font-face {
+    font-family: raleway;
+    src: url(fonts/Raleway-VariableFont_wght.ttf);
+}
+
+body {
+    margin: 0;
+    padding-right: 10px;
+}
+
+* {
+    font-family: raleway;
+    font-weight: bold;
+}
+
+#fruits {
+    font-size: 22px;
+}
+
+h2 {
+    font-size: 45;
+    padding-left: 10px;
+}
+
+img h2 {
+    border-radius: 50%;
+}
+
+#linebreak {
+    font-size: 1px;
+}
+
+h1 {
+    font-size: 50px;
+    background-color: rgb(137, 234, 185);
+    font-family: lobster;
+    margin: auto;
+    text-align: center;
+}
+
+img {
+    padding-top: 4px;
+    border-radius: 70%;
+}
+
+#avatar {
+    padding-top: 4px;
+    border-radius: 50%;
+}
+
+#avdiv {
+    display: flex;
+    background-color: rgb(255, 226, 191);
+    width: 300px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#fruitsongs {
+    display: flex;
+}
+
+#fruitarts {
+    display: flex;
+}
+
+#smallcontainer {
+    width: 40%;
+}
+
+#songs,
+#recents {
+    background-color: rgb(252, 188, 210);
+    padding-left: 5px;
+    padding-bottom: 5px;
+    width: 400px;
+    border-radius: 5px;
+}
+
+#divider {
+    padding-left: 10px;
+}
+
+#items {
+    background-color: rgb(252, 188, 210);
+    padding-left: 5px;
+    padding-bottom: 5px;
+    width: 400px;
+    border-radius: 5px;
+}
+
+#fruity1 {
+    font-weight: bolder;
+}
+
+#fruity2 {
+    font-weight: bolder;
+}
+
+#playlists {
+    background-color: rgb(255, 247, 237);
+    padding-bottom: 5px;
+}
+
+#miniplaylists {
+    padding-left: 10px;
+}
+
+#favsong,
+#favsong2,
+#favsong3 {
+    background-color: rgb(255, 226, 191);
+    width: 230px;
+    height: 250px;
+    border-radius: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+#medcontainer {
+    display: flex;
+}
+
+#favsongtitle {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+#bigcontainer {
+    display: flex;
+}
+
+audio {
+    width: 80%;
+}
